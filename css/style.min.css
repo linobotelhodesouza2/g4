@@ -114,9 +114,9 @@ section {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3E00FF, #FF7600);
+    background: -webkit-linear-gradient(to right, #042ef5, #f39711);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3E00FF, #FF7600);
+    background: linear-gradient(to right, #042ef5, #f39711);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .jumbotron h1 {
     line-height: .9;
@@ -145,9 +145,9 @@ section {
     right: 0;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: -webkit-linear-gradient(to right, #042ef5, #f39711);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #042ef5, #f39711);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
@@ -729,9 +729,9 @@ section {
     width: 100%;
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3E00FF, #FF7600);
+    background: -webkit-linear-gradient(to right, #042ef5, #f39711);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3E00FF, #FF7600);
+    background: linear-gradient(to right, #042ef5, #f39711);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: 11; }
   #header-navbar {
@@ -740,9 +740,9 @@ section {
   .navbar-transparent .navbar-collapse {
     background: #ff00cc;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3E00FF, #FF7600);
+    background: -webkit-linear-gradient(to right, #042ef5, #f39711);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3E00FF, #FF7600);
+    background: linear-gradient(to right, #042ef5, #f39711);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px; } }
 
