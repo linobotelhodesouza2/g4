@@ -70,7 +70,8 @@ section {
 
 .navbar-brand {
   font-size: 40px;
-  color: #000; }
+  color: #000; 
+}
 
 .navbar-nav .nav-link {
   color: #fff;
@@ -83,7 +84,8 @@ section {
 
 .navbar-toggler {
   font-size: 2rem;
-  color: #fff; }
+  color: #fff; 
+}
 
 .bg-fixed{
   height: 110px;
@@ -91,9 +93,17 @@ section {
   /*border: 1px solid red;*/
 }
 
+.bg-fixed overlay{
+  height: 110px;
+  background-image: linear-gradient( to right, #042ef5 61%, #f39711 20% );
+  /*border: 1px solid red;*/
+  background: fixed;
+}
+
+
 .jumbotron {
   color: #fff;
-  padding-top: 80px;
+  padding-top: 0px;
   padding-bottom: 80px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -460,18 +470,11 @@ section {
   margin-bottom: 30px; }
 
 .blog-img img {
-  width: 60%;
+  width: 100%;
   height: 250px;
   float: right;
-  margin-right: 80px;
+  margin-right: 0px;
   object-fit: cover; }
-
-.blog-img-serv img {
-  width: 100%;
-  height: 350px;
-  object-fit: cover;
-  /*border: 1px solid red;*/
- }
 
 .blog-title h4 {
   text-align: center; 
@@ -518,9 +521,13 @@ section {
 /*====================================
 =            FORM CONTROL            =
 ====================================*/
+.btn-primary{
+  
+}
+
 .form-control:focus {
-  border-color: #ff00cc;
-  box-shadow: 0 0 0 0.2rem rgba(253, 101, 90, 0.25); }
+  border-color: #FFB830;
+  box-shadow: 0 0 0 0.2rem rgba(243,175 , 57, 0.25); }
 
 .form-control::-webkit-input-placeholder {
   opacity: .5; }
@@ -582,7 +589,7 @@ section {
   .jumbotron h1 {
     font-size: 6rem; }
   .grid-item {
-    width: 100%; }
+    width: 10%; }
   .progress {
     height: 30px;
     font-size: 16px; } }
@@ -604,4 +611,34 @@ section {
   font-size:30px;
   box-shadow: 1px 1px 2px #888;
   z-index:1000;
+}
+
+.container .navbar-brand-logo img{
+  width: 90px;
+}
+.container .navbar-brand-logo h3{
+  color: ghostwhite;
+}
+
+
+.nav-link  {
+    color: #3C8DAD;
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #3C8DAD;
+    border-color: #125D98;
+    color: #fff;
+}
+
+#header-navbar .pt-4, .py-4 {
+    padding-top: 0.5rem!important;
+}
+
+.blog-item-wrapper {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
